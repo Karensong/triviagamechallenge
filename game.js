@@ -1,38 +1,43 @@
 $(document).ready(function() {
 
-	var questionone = {
-      question: "Which of these is not a 90s trend?",
-      answerone: "Vests",
-      answertwo: "Tamagotchi Pets",
-      answerthree: "AOL",
-      answerfour: "Tie-dye shirts",
-      correctanswer: "Tie-dye shirts",
-    };
-    var questiontwo = {
-      question: "What did not happen in the 90s?",
-      answerone: "OJ Simpson trial",
-      answertwo: "Tonya Harding's Feud with Nancy Kerrigan",
-      answerthree: "Cabbage Patch Kids Craze",
-      answerfour: "The Gulf War",
-      correctanswer: "Cabbage Patch Kids Craze",
-    };
-    var questionthree = {
-      question: "Which of these is not a 90s movie?",
-      answerone: "Clueless",
-      answertwo: "Jurassic Park",
-      answerthree: "Home Alone",
-      answerfour: "Gladiator",
-      correctanswer: "Gladiator",
-    };
-    var questionfour = {
-      question: "Who was NOT a part of the Backstreet Boys?",
-      answerone: "AJ McLean",
-      answertwo: "Nick Carter",
-      answerthree: "Kevin Richardson",
-      answerfour: "Lance Bass",
-      correctanswer: "Lance Bass",
-    };
-    var questions = [questionone, questiontwo, questionthree, questionfour];
+	$("input[type='button']").click(function(){
+    var wins = 0;
+    var losses = 0;
+
+            var radioValueone = $("input[name='ans']:checked").val();
+            if(radioValueone=true){
+              wins++;
+              console.log(wins);
+            } else {
+              losses++;
+              console.log(losses);
+            }
+            var radioValuetwo = $("input[name='anstwo']:checked").val();
+            if(radioValuetwo=true){
+              wins++;
+              console.log(wins);
+            } else {
+              losses++;
+              console.log(losses);
+            }
+            var radioValuethree = $("input[name='ansthree']:checked").val();
+            if(radioValuethree=true){
+              wins++;
+              console.log(wins);
+
+            }else {
+              losses++;
+              console.log(losses);
+            }
+            var radioValuefour= $("input[name='ansfour']:checked").val();
+            if (radioValuefour=true){
+              wins++;
+              console.log(wins);
+            } else {
+              losses++;
+              console.log(losses);
+            }
+        });
     // var questions =
     //  Interval Demonstration
     //  Set our number counter to 100.
