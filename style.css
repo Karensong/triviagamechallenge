@@ -5,3 +5,49 @@
 .responsediv {
 	text-align: center;
 }
+
+.winsdiv, 
+.lossesdiv,
+.unanswereddiv {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.responsediv {
+	font-size: 20px;
+}
+
+#cool,
+#coolness,
+#coolbeans {
+	text-align: center;
+}
+
+#cool {
+	font-size: 24px;
+}
+
+#move {
+	text-align: center;
+}
+
+#magical {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+body {
+	background-image: url(backgroundnine.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+/*.Background {*/
+	/*background-image: url(spiration.png);*/
+	/*background-size: 1000px;*/
+	/*width: 1000px;*/
+	/*height: 1000px;*/
+	/*color: grey;*/
+/*}*/

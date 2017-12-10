@@ -6,8 +6,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
+    <div id="coolness"><h1>Totally Trivial 90s Trivia!</h1></div>
+    <div id="cool">Press the Magical 90s button for a blast from the past! Press as many times as you want!</div>
+    <div id="coolbeans"><button id="magical">Magical 90s button</button></div>
+    <div id="images"></div>
+
+    <div id="move"><button id="Start"><h1>Start Game!</h1></button></div>
     <div class="intro">
-    <h1>Totally Trivial 90s Trivia!</h1>
     <div id="time-remaining"><h2>Time Remaining:</div>
     <span id="show-number"></span>
     </div>
@@ -18,38 +24,39 @@
     <div id="answerdialog"></div>
     <div class="whoa" id="question"><h2>Which of these is NOT a name of the Backstreet Boys?</h2></div>
     <p> 
-        <label><input type="radio" name="ans" value=false>AJ McLean</label> 
-        <label><input type="radio" name="ans" value=false>Nick Carter</label>
-        <label><input type="radio" name="ans" value=false>Kevin Richardson</label> 
-        <label><input type="radio" name="ans" value=true>Lance Bass</label>
+        <label><input type="radio" name="ans" value="aj mclean">AJ McLean</label> 
+        <label><input type="radio" name="ans" value="nick carter">Nick Carter</label>
+        <label><input type="radio" name="ans" value="kevin richardson">Kevin Richardson</label> 
+        <label><input type="radio" name="ans" value="lance bass">Lance Bass</label>
     </p> 
     
     
     <div class="whoa" id="questiontwo"><h2>What did not happen in the 90s?</h2></div>
     <p> 
-        <label><input type="radio" name="anstwo" value=false>OJ Simpson trial</label> 
-        <label><input type="radio" name="anstwo" value=false>Tonya Harding</label>
-        <label><input type="radio" name="anstwo" value=true>Cabbage Patch Kids Craze</label> 
-        <label><input type="radio" name="anstwo" value=false>The Gulf War</label>
+        <label><input type="radio" name="anstwo" value="oj simpson">OJ Simpson trial</label> 
+        <label><input type="radio" name="anstwo" value="tonya harding">Tonya Harding</label>
+        <label><input type="radio" name="anstwo" value="cabbage patch kids">Cabbage Patch Kids Craze</label> 
+        <label><input type="radio" name="anstwo" value="the gulf war">The Gulf War</label>
     </p> 
     
 
     <div class="whoa" id="questionthree"><h2>Which of these is not a 90s movie?</h2></div>
     <p> 
-        <label><input type="radio" name="ansthree" value=false>Clueless</label> 
-        <label><input type="radio" name="ansthree" value=false>Jurassic Park</label>
-        <label><input type="radio" name="ansthree" value=false>Home Alone</label> 
-        <label><input type="radio" name="ansthree" value=true>Gladiator</label>
+        <label><input type="radio" name="ansthree" value="clueless">Clueless</label> 
+        <label><input type="radio" name="ansthree" value="jurassic park">Jurassic Park</label>
+        <label><input type="radio" name="ansthree" value="home alone">Home Alone</label> 
+        <label><input type="radio" name="ansthree" value="gladiator">Gladiator</label>
     </p> 
     
 
     <div class="whoa" id="questionfour"><h2>Which of these is not a 90s trend?</h2></div>
     <p> 
-        <label><input type="radio" name="ansfour" value=false>Vests</label> 
-        <label><input type="radio" name="ansfour" value=false>Tamagotchi</label>
-        <label><input type="radio" name="ansfour" value=false>AOL</label> 
-        <label><input type="radio" name="ansfour" value=true>Tie-dye shirts</label>
+        <label><input type="radio" name="ansfour" value="vests">Vests</label> 
+        <label><input type="radio" name="ansfour" value="tamagotchi">Tamagotchi</label>
+        <label><input type="radio" name="ansfour" value="aol">AOL</label> 
+        <label><input type="radio" name="ansfour" value="tie-dye">Tie-dye shirts</label>
     </p> 
+
 
     <p><input type="button" value="Submit Answer"></p>
     
@@ -65,6 +72,9 @@
 
 
     </div>
+    <div class="winsdiv"></div>
+    <div class="lossesdiv"></div>
+    <div class="unanswereddiv"></div>
     <!-- jQuery -->
     
     
